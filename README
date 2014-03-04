@@ -1,0 +1,63 @@
+Luminous Intervention Slides
+
+Layers on-the-fly slides with a web-based interface.
+
+
+
+Installation Instructions:
+
+  STEP 1: Requirements
+
+    In order to install this software, you will need an *AMP installation.
+
+    For Windows, install something like http://sourceforge.net/projects/wampserver/
+
+    For OSX, install something like http://sourceforge.net/projects/xampp/
+
+    For *NIX systems (easiest), install a LAMP system - for Ubuntu, this is done with the instructions here: https://www.digitalocean.com/community/articles/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu
+    
+    This system also requires a laptop with a dual-monitor setup - that is, the laptop screen and projector output are not the same.
+    
+    Finally, this system requires cookies to be enabled on your browser.
+
+  STEP 2: Extraction
+    
+    Extract the li_slides.zip package to your HTML directory in your *AMP installation
+    
+  STEP 3: Database
+    
+    Using a tool like http://www.mysql.com/products/workbench/ , import the li_slides.sql db into its own schema
+    
+    In the directory you extracted into in step 2, go to ./li_slides/sites/default/settings.php - edit this file to match your mysql username, db name, and password
+  
+
+
+Usage instructions
+
+  STEP 1: Log in
+
+    Navigate your browser to "localhost/li_slides" - you should see your installation up and running now. Login with the credentials admin/blockthexl
+  
+  STEP 2: Find or create your presentation. 
+  
+    If you are doing the Keystone XL demonstration, an existing presentation is set up for you already. It should be listed on the homepage.
+    
+    If you are doing another presentation, you can click "Content > Add Content > Stream Presentation" to create a new one
+    
+  STEP 3: Add slides
+  
+    You should see a link to add a "+ New Slide" - click this and enter the text, set up the font and positioning, etc.
+    
+    Once you create a slide, you can click Edit to edit or delete it.
+  
+  STEP 4: Open presentation
+  
+    Click the "Open Stream" button, which should open a presentation in a new browser tab. This is the tab that you will open as a full-size window (F11 on Chrome & Firefox) on your projector.
+    
+  STEP 5: Select layers
+    
+    Back on the laptop, select the two layers to display by clicking on the "Layer 1" and "Layer 2" links. You should see them pop up on the projector.
+    
+
+
+Enjoy! 
